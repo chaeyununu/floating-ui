@@ -1,9 +1,9 @@
 const chapters = {
   1: {
     label: "love chapter 1",
-    tag: "aug 2023 · improved math skills",
+    tag: "aug 2022 · improved math skills",
     icons: [
-      { emoji: "🔥", label: "moment" },
+      { emoji: "✏️", label: "sarak sarak" },
       { emoji: "👑", label: "he is fine-.-" },
       { emoji: "🎆", label: "main character ? " }
     ],
@@ -11,11 +11,11 @@ const chapters = {
     caption:
       "felt like fate in a tiny classroom, then the plot twist hit: i wasn’t the main character after all.",
     detail: `the more i replay it, the more it feels like the stars were saying,
-“this isn’t your forever person, this is your first mirror.”`
+“this isn’t your person, this is your first mirror.”`
   },
   2: {
     label: "love chapter 2",
-    tag: "2024 · songs & small math classrooms",
+    tag: "2023 · π ",
     icons: [
       { emoji: "☔", label: "ttiny academy" },
       { emoji: "🩴", label: "red slippers" },
@@ -29,7 +29,7 @@ const chapters = {
   },
   3: {
     label: "love chapter 3",
-    tag: "jan–feb 2025 · i was crazy",
+    tag: "early 2025 · i was crazy",
     icons: [
       { emoji: "🌊", label: "" },
       { emoji: "💎", label: "" }
@@ -175,3 +175,4 @@ window.addEventListener("click", () => {
 
 // 초기 상태: 아무 챕터도 열지 않음
 // → hurting deeply inside..... 만 보이는 인트로 화면
+
