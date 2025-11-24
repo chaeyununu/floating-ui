@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>hurting deeply inside</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-noise"></div>
+  <div class="bg-orb bg-orb--1"></div>
+  <div class="bg-orb bg-orb--2"></div>
+  <div class="bg-orb bg-orb--3"></div>
+
+  <!-- 네 귀퉁이 chapter 버튼 -->
+  <nav class="chapter-nav">
+    <button class="chapter-btn chapter-btn--tl" data-chapter="1">
+      love chapter 1
+    </button>
+    <button class="chapter-btn chapter-btn--tr" data-chapter="2">
+      love chapter 2
+    </button>
+    <button class="chapter-btn chapter-btn--bl" data-chapter="3">
+      love chapter 3
+    </button>
+    <button class="chapter-btn chapter-btn--br" data-chapter="4">
+      love chapter 4
+    </button>
+  </nav>
+
+ <audio id="bgm" src="안뇽.m4a" autoplay loop muted></audio>
+
+
+
+
+  <main class="page">
+    <div class="card" id="chapter-card">
+      <!-- 챕터 정보 (첫 화면에는 숨김) -->
+      <header class="card-header hidden-before" id="card-header">
+        <div class="pills">
+          <span class="pill pill-main" id="chapter-label">love chapter 1</span>
+          <span class="pill pill-tag" id="chapter-tag">
+            midnight fireworks in my chest
+          </span>
+        </div>
+      </header>
+
+      <!-- 아이콘 존 (첫 화면에는 숨김) -->
+      <section class="icons-row hidden-before" id="icons-row">
+        <!-- JS가 아이콘 넣음 -->
+      </section>
+
+      <!-- 첫 화면: 이 문구만 보임 -->
+      <p class="center-line" id="center-line">
+        hurting deeply inside.....
+      </p>
+
+      <!-- 챕터 캡션 (첫 화면에는 숨김) -->
+      <p class="caption hidden-before" id="chapter-caption">
+        you ever sit in a room that’s too quiet, but your head is still too loud?
+      </p>
+
+      <!-- 자세히 버튼 + 디테일 패널 (첫 화면에는 숨김) -->
+      <button class="detail-btn hidden-before" id="detail-btn">
+        details
+      </button>
+
+      <div class="detail-panel" id="detail-panel">
+        <div class="detail-panel-inner">
+          <div class="detail-content" id="detail-content"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
