@@ -15,7 +15,7 @@ const chapters = {
   },
   2: {
     label: "love chapter 2",
-    tag: "2023 · π ",
+    tag: "2023 · pie ",
     icons: [
       { emoji: "☔", label: "ttiny academy" },
       { emoji: "🩴", label: "red slippers" },
@@ -175,4 +175,5 @@ window.addEventListener("click", () => {
 
 // 초기 상태: 아무 챕터도 열지 않음
 // → hurting deeply inside..... 만 보이는 인트로 화면
+
 
